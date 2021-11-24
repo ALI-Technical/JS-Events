@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    padding: 1px 0;
+    background-color: black;
+}
+.Phone-Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-div{
+    border: 1px solid black;
+    width: 600px;
+    background-image: radial-gradient(#703DFC,#703DFC);
+}
+.img-div img{
+    width: 100%;
+}
+.img-div p{
+    color: #2ADDC3;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.my-btn{
+    border: none;
+    background: none;
+    font-size: 10px;
+}
+.my-btn-2{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    border-radius: 50px;
+    color: #000000;
+}
+.std-section{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.std-section tr{
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.std-section button{
+    margin-left: 2em;
+}
